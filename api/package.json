@@ -1,0 +1,24 @@
+{
+  "name": "patient-chart-api",
+  "version": "1.0.0",
+  "description": "API for our Patient Chart App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "isomorphic-fetch": "^2.2.1",
+    "ramda": "^0.23.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
